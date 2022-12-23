@@ -848,7 +848,6 @@ footer{
    font-size: 14px;
    line-height: var(--line-height-24px-14px);
    letter-spacing: var(--letter-spacing-03);
-   text-decoration: underline;
    color: var(--blue-color);
 }
 .form-button {
@@ -890,5 +889,6 @@ footer{
 }
 .form-field-checkbox .tems {
    text-decoration: underline;
+   text-decoration-skip-ink: none;
    color: var(--blue-color);
 }
